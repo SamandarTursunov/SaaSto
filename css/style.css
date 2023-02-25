@@ -37,6 +37,7 @@ body {
 	color: #18063C;
 	background-color: #FFF;
 	font-family: Poppins;
+	scroll-behavior: smooth;
 }
 /*--------------------------------------------------------------------------*/
 .wrapper {
@@ -249,6 +250,7 @@ body {
 .main-tracking__button:hover {
 	color: #FF553E;
 	background: #fff;
+	border: 1px solid #FF553E;
 }
 .main-tracking__image {
 	position: absolute;
@@ -815,6 +817,7 @@ body {
 .items-price__button:hover {
 	background-color: #FFF;
 	color: #FF553E;
+	border: 1px solid #FF553E;
 }
 .items-price__item_orange {
 	background-color: #FF553E;
@@ -832,6 +835,7 @@ body {
 .items-price__button_white:hover {
 	background-color: #ffeaeae5;
 	color: #ff543ee6;
+	border: 1px solid #ffeaeae5;
 }
 .price__image {
 	position: absolute;
