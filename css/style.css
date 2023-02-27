@@ -261,7 +261,7 @@ body {
 }
 .header-block__title_black {
 	font-weight: 700;
-	font-size: 64px;
+	font-size: 60px;
 	line-height: 140.625%;
 	color: #1C0E0D;
 	text-align: center;
@@ -309,8 +309,9 @@ body {
 .indicator {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: flex-start;
-	padding: 94px 0px 223px 80px;
+	align-items: center;
+	text-align: center;
+	padding: 94px 0px 223px 0px;
 }
 .indicator__head {
 	flex: 0 1 33.3333%;
@@ -335,8 +336,6 @@ body {
 @media (max-width: 992px) {
 	.indicator {
 		padding: 94px 0px 80px 0px;
-		align-items: center;
-		text-align: center;
 	}
 }
 @media (max-width: 768px) {
